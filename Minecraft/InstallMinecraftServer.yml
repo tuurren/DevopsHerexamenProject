@@ -1,0 +1,101 @@
+---
+- name: Installation Minecraft
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: Install java pre-req
+    become: true
+    apt: #welke package  
+      name: software-properties-common
+      state: latest  #latest: present&update
+
+  - name: Installation JAVA
+    become: true
+    apt:
+      name: openjdk-21-jre
+      state: present #check install if false install        
+
+  - name: Install wget
+    become: true
+    apt:
+      name: wget
+      state: present
+
+  - name: Install Screen
+    become: true
+    apt:
+      name: screen
+      state: present
+
+  - name: Create_directory_server_file
+    become: true
+    file:
+      path: /home/tuur/MCServerFile
+      state: directory
+      mode: '0777' #gives  permissions
+
+  - name: Installation Server File
+    become: true
+    get_url:
+        url: https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar
+        dest: /home/tuur/MCServerFile
+        mode: '0777'
+ 
+  - name: Firewall SSH
+    become: true
+    ufw:
+      rule: allow
+      port: 22
+      proto: tcp
+
+  - name: Firewall Minecraft UDP
+    become: true
+    ufw:
+      rule: allow
+      port: 25565
+      proto: udp
+
+  - name: Firewall Minecraft TCP
+    become: true
+    ufw:
+      rule: allow
+      port: 25565
+      proto: tcp
+
+  - name: Firewall HTTPS
+    become: true
+    ufw:
+      rule: allow
+      port: 443
+      proto: tcp
+
+  - name: Firewall HTTP
+    become: true
+    ufw:
+      rule: allow
+      port: 80
+      proto: tcp
+
+  - name: Turn On Firewall
+    become: true
+    ufw:
+      state: enabled
+
+  - name: Run Server
+    shell: /usr/bin/java -Xmx1024M -Xms1024M -jar server.jar nogui
+    args:
+      chdir: /home/tuur/MCServerFile
+
+  - name: SetPermissions
+    file:
+      path: /home/tuur/MCServerFile/eula.txt
+      mode: '0777'
+      state: file
+ 
+  - name: CheckEULAState
+    lineinfile:
+      path: /home/tuur/MCServerFile/eula.txt
+      regexp: '^eula=false$'
+      line: 'eula=true'
+      create: yes
+

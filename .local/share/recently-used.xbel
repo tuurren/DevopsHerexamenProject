@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/tuur/MCServerFile/server.properties" added="2024-08-23T21:40:14.838876Z" modified="2024-08-23T23:22:11.861176Z" visited="2024-08-23T21:40:14.838877Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-08-23T23:22:11.861170Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tuur/MCServerFile/eula.txt" added="2024-08-23T22:50:47.058426Z" modified="2024-08-23T22:50:47.058428Z" visited="2024-08-23T22:50:47.058426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-08-23T22:50:47.058427Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tuur/MCServerFile/server.jar" added="2024-08-23T22:51:03.597156Z" modified="2024-08-23T22:51:14.157218Z" visited="2024-08-23T22:51:03.597157Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/java-archive"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus --new-window %U&apos;" modified="2024-08-23T22:51:14.157217Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tuur/MCServerFile/logs/latest.log" added="2024-08-23T22:51:30.539753Z" modified="2024-08-23T23:19:52.503251Z" visited="2024-08-23T22:51:30.539753Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-log"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-08-23T23:19:52.503246Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tuur/Downloads/ssh%20key" added="2024-08-24T22:25:38.351713Z" modified="2024-08-24T22:25:38.351716Z" visited="2024-08-24T22:25:38.351713Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-08-24T22:25:38.351714Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tuur/Documents/sshkey.txt" added="2024-08-24T22:26:43.438904Z" modified="2024-08-24T22:26:43.438907Z" visited="2024-08-24T22:26:43.438904Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-08-24T22:26:43.438905Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

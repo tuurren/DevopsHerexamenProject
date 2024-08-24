@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/tuur/MCServerFile/server.properties" added="2024-08-23T21:40:18.556103Z" modified="2024-08-23T23:22:27.257545Z" visited="2024-08-24T01:22:12.083132+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-08-23T23:22:27.257544Z" count="26"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///home/tuur/MCServerFile/server.properties" added="2024-08-23T21:41:42.555728Z" modified="2024-08-24T22:28:43.148604Z" visited="2024-08-25T00:27:58.917076+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-08-24T22:28:43.148603Z" count="33"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tuur/MCServerFile/eula.txt" added="2024-08-23T22:50:50.114899Z" modified="2024-08-23T23:12:08.378313Z" visited="2024-08-24T01:11:08.704374+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-08-23T23:12:08.378313Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tuur/MCServerFile/logs/latest.log" added="2024-08-23T22:51:34.114564Z" modified="2024-08-24T22:27:51.763259Z" visited="2024-08-25T00:27:42.884384+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-08-24T22:27:51.763258Z" count="16"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
